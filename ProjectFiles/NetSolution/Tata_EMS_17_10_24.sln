@@ -1,21 +1,25 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.106
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tata_EMS_17_10_24", "Tata_EMS_17_10_24.csproj", "{0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}"
 EndProject
 Global
-    GlobalSection(SolutionConfigurationPlatforms) = preSolution
-        Debug|Any CPU = Debug|Any CPU
-        Release|Any CPU = Release|Any CPU
-    EndGlobalSection
-    GlobalSection(ProjectConfigurationPlatforms) = postSolution
-        {0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-        {0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-        {0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-        {0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Release|Any CPU.Build.0 = Release|Any CPU
-    EndGlobalSection
-    GlobalSection(SolutionProperties) = preSolution
-        HideSolutionNode = FALSE
-    EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3275AC-CB0A-E203-3DB4-3111CA2BCEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40F46F2C-9B00-4CBC-A3AC-4D496127CA98}
+	EndGlobalSection
 EndGlobal

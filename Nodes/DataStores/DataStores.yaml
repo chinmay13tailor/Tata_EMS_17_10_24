@@ -435,6 +435,10 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Year
+          Type: StoreColumn
+          DataType: DateString
+          Value: "Jan 1, 1601, 12:00:00 AM"
     - Name: DailyConsumption
       Type: ODBCStoreTable
       Children:

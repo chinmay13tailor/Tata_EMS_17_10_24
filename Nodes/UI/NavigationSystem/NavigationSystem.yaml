@@ -19124,7 +19124,7 @@ Children:
                     DataType: FontWeightEnum
                     ModellingRule: Optional
                     Value: 700
-                - Name: consumption
+                - Name: Power
                   Type: Label
                   Children:
                   - Name: Text
@@ -19478,7 +19478,7 @@ Children:
                     DataType: TextHorizontalAlignment
                     ModellingRule: Optional
                     Value: 1
-                - Name: Label1
+                - Name: Consumption
                   Type: Label
                   Children:
                   - Name: LeftMargin
