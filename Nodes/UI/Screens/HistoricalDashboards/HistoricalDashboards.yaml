@@ -13828,7 +13828,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: Comparison_Dashboard
   Id: g=f4f65d18f1fb358ba62e90e103897440
   Supertype: BaseScreen
@@ -56110,7 +56110,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: ConsumptionDistributionDashboard1
   Id: g=7cfc0ed53cfb53511c669a841572f34d
   Supertype: BaseScreen
@@ -69735,4 +69735,4 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"

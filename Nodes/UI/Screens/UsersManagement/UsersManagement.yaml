@@ -908,7 +908,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: UsersEditor2
   Id: g=79b1f58af3a5fb96384d8d71eea9448b
   Supertype: BaseScreen
