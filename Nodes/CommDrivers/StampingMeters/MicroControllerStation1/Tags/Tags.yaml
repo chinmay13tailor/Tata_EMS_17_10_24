@@ -14,6 +14,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_IN_F1"
 - Name: STP_MVS_01_IN_F1_STS
+  Id: g=8e422360b20d88d36bd1576eb13225f0
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -44,6 +45,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_IN_F2"
 - Name: STP_MVS_01_IN_F2_STS
+  Id: g=0285e7e916d59b2274672f2229e19bc8
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -74,6 +76,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_OG_F4"
 - Name: STP_MVS_01_OG_F4_STS
+  Id: g=2b1ed2f8fd995c05aecae8777a027d4c
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -104,6 +107,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_OG_F5"
 - Name: STP_MVS_01_OG_F5_STS
+  Id: g=77c819f5008a676b6c3dac59fbdb81fa
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -134,6 +138,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_OG_F6"
 - Name: STP_MVS_01_OG_F6_STS
+  Id: g=a9535e15310b17cb2c4c4740c8412177
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -164,6 +169,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_OG_F7"
 - Name: STP_MVS_01_OG_F7_STS
+  Id: g=ba593bdff50dee85c173650389d72cb6
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -194,6 +200,7 @@ Children:
     DataType: String
     Value: "STP_MVS_01_OG_F8"
 - Name: STP_MVS_01_OG_F8_STS
+  Id: g=e56f55c0e882855d03df751c8c62843f
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -236,6 +243,7 @@ Children:
     DataType: String
     Value: "STP_SWB_01_OG_3F"
 - Name: STP_SWB_01_INF1_STS
+  Id: g=e5e78351a5273e9eb98308fe30881a48
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -254,6 +262,7 @@ Children:
     DataType: String
     Value: "STP_SWB_01_INF1_STS_Co"
 - Name: STP_SWB_01_OG_3F1
+  Id: g=aa3e77871475c58efe128b1ec2927809
   Type: MicroControllerTag
   DataType: Double
   ValueRank: OneDimension
@@ -265,6 +274,7 @@ Children:
     DataType: String
     Value: "STP_SWB_01_OG_3F1"
 - Name: STP_SWB_01_OG_3F1_STS
+  Id: g=3f6ef4705a75d0b023fe935a4d8ecdce
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -295,6 +305,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_INF1"
 - Name: STP_SWB_02_INF1_STS
+  Id: g=c12afbd348576099555b416eb0edd73f
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -325,6 +336,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_OG_2F"
 - Name: STP_SWB_02_OG_2F_STS
+  Id: g=c84483bf0f9e2ffb5a9f39c045a2bc1d
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -355,6 +367,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_OG_3F1"
 - Name: STP_SWB_02_OG_3F1_STS
+  Id: g=1dd32e7efd6255398f3a986df9fb2206
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -385,6 +398,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_OG_3F2"
 - Name: STP_SWB_02_OG_3F2_STS
+  Id: g=6fbc9d88fba59784092772f60a8d1e80
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -415,6 +429,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_OG_4F1"
 - Name: STP_SWB_02_OG_4F1_STS
+  Id: g=5875d7ecdef7cbfb3a263f03dcad01a5
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -445,6 +460,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_OG_4F2"
 - Name: STP_SWB_02_OG_4F2_STS
+  Id: g=ae00866cc0a9bed7ebc7b9c6ba3f13c2
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -475,6 +491,7 @@ Children:
     DataType: String
     Value: "STP_SWB_02_OG_5F1"
 - Name: STP_SWB_02_OG_5F1_STS
+  Id: g=ae08b87b2d693e30d4f4f6827909b88e
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -505,6 +522,7 @@ Children:
     DataType: String
     Value: "STP_SWB_03_INF1"
 - Name: STP_SWB_03_INF1_STS
+  Id: g=0b7358fee5623b94a0650539a4aae101
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -535,6 +553,7 @@ Children:
     DataType: String
     Value: "STP_SWB_04_INF1"
 - Name: STP_SWB_04_INF1_STS
+  Id: g=f3d1b0d2c98a064e7031fd548557dc64
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -565,6 +584,7 @@ Children:
     DataType: String
     Value: "STP_SWB_05_INF1"
 - Name: STP_SWB_05_INF1_STS
+  Id: g=b9375fc1115bca4dfc191a44d2110b75
   Type: MicroControllerTag
   DataType: Boolean
   Value: false

@@ -14,6 +14,7 @@ Children:
     DataType: String
     Value: "DB_0_01_1F1"
 - Name: DB_0_01_1F1_STS
+  Id: g=fe7315678d8f3bc7f7d041251285e42b
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -44,6 +45,7 @@ Children:
     DataType: String
     Value: "SPP_EDB_0_01_1F1"
 - Name: SPP_EDB_0_01_1F1_STS
+  Id: g=d1543a45f5a3bc4f9c7c1807005721cd
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -74,6 +76,7 @@ Children:
     DataType: String
     Value: "SPP_MVS_IN2"
 - Name: SPP_MVS_IN2_STS
+  Id: g=54227c4bd4cf31e640a1018585429b74
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -104,6 +107,7 @@ Children:
     DataType: String
     Value: "SPP_MVS_OG1"
 - Name: SPP_MVS_OG1_STS
+  Id: g=02f9434e1c267ce085ae2b4f4f439764
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -134,6 +138,7 @@ Children:
     DataType: String
     Value: "SPP_MVS_OG2"
 - Name: SPP_MVS_OG2_STS
+  Id: g=6b8f346ca9936cf0bac67bc1f4d681df
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -164,6 +169,7 @@ Children:
     DataType: String
     Value: "SPP_SWB_01_1F1"
 - Name: SPP_SWB_01_1F1_STS
+  Id: g=39739675ada9cada3985d45536094a2a
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -194,6 +200,7 @@ Children:
     DataType: String
     Value: "SPP_SWB_01_4F1"
 - Name: SPP_SWB_01_4F1_STS
+  Id: g=556fc1939064e790040aec641b94aaab
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -224,6 +231,7 @@ Children:
     DataType: String
     Value: "SPP_SWB_02_1F1"
 - Name: SPP_SWB_02_1F1_STS
+  Id: g=717fdb1e1318a014f722bfc7076a7cbe
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
@@ -254,6 +262,7 @@ Children:
     DataType: String
     Value: "SSP_MVS_IN1"
 - Name: SSP_MVS_IN1_STS
+  Id: g=c4d58c8b08bbf65c1609857544a01777
   Type: MicroControllerTag
   DataType: Boolean
   Value: false
