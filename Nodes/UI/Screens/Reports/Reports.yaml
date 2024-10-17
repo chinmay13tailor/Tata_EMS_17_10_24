@@ -12682,6 +12682,12 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/Selection10"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
                         - Name: Pairs
                           Type: BaseObjectType
                           Children:
@@ -12784,6 +12790,12 @@ Children:
                               Type: BaseDataVariableType
                               DataType: LocalizedText
                               Value: {"LocaleId":"en-US","Text":"J9_SPP_EDB_0_01_1F1"}
+                        - Name: Mode
+                          Type: PropertyType
+                          DataType: DynamicLinkMode
+                          ReferenceType: HasComponent
+                          ModellingRule: Optional
+                          Value: 2
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32

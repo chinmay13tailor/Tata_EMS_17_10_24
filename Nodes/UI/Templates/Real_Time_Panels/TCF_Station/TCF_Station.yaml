@@ -2803,6 +2803,11 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 180.0
+          - Name: BorderColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#00000000"
         - Name: Separate_Meter1
           Type: Separate_Meter
           Children:
