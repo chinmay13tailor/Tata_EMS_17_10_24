@@ -4432,18 +4432,6 @@ Children:
                                         Type: DynamicLink
                                         DataType: NodePath
                                         Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
-                                        Children:
-                                        - Name: Mode
-                                          Type: BaseVariableType
-                                          DataType: DynamicLinkMode
-                                          ModellingRule: Optional
-                                          Value: 2
-                                    - Name: Mode
-                                      Type: PropertyType
-                                      DataType: DynamicLinkMode
-                                      ReferenceType: HasComponent
-                                      ModellingRule: Optional
-                                      Value: 2
                                     - Name: ns=3;Source1
                                       Type: BaseDataVariableType
                                       DataType: BaseDataType
@@ -4453,12 +4441,6 @@ Children:
                                         Type: DynamicLink
                                         DataType: NodePath
                                         Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
-                                        Children:
-                                        - Name: Mode
-                                          Type: BaseVariableType
-                                          DataType: DynamicLinkMode
-                                          ModellingRule: Optional
-                                          Value: 2
                               - Name: Pair1
                                 Type: ValueMapPair
                                 Children:
@@ -4489,18 +4471,6 @@ Children:
                                         Type: DynamicLink
                                         DataType: NodePath
                                         Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
-                                        Children:
-                                        - Name: Mode
-                                          Type: BaseVariableType
-                                          DataType: DynamicLinkMode
-                                          ModellingRule: Optional
-                                          Value: 2
-                                    - Name: Mode
-                                      Type: PropertyType
-                                      DataType: DynamicLinkMode
-                                      ReferenceType: HasComponent
-                                      ModellingRule: Optional
-                                      Value: 2
                                     - Name: ns=3;Source1
                                       Type: BaseDataVariableType
                                       DataType: BaseDataType
@@ -4510,12 +4480,6 @@ Children:
                                         Type: DynamicLink
                                         DataType: NodePath
                                         Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
-                                        Children:
-                                        - Name: Mode
-                                          Type: BaseVariableType
-                                          DataType: DynamicLinkMode
-                                          ModellingRule: Optional
-                                          Value: 2
                               - Name: Pair2
                                 Type: ValueMapPair
                                 Children:
@@ -4546,18 +4510,6 @@ Children:
                                         Type: DynamicLink
                                         DataType: NodePath
                                         Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
-                                        Children:
-                                        - Name: Mode
-                                          Type: BaseVariableType
-                                          DataType: DynamicLinkMode
-                                          ModellingRule: Optional
-                                          Value: 2
-                                    - Name: Mode
-                                      Type: PropertyType
-                                      DataType: DynamicLinkMode
-                                      ReferenceType: HasComponent
-                                      ModellingRule: Optional
-                                      Value: 2
                                     - Name: ns=3;Source1
                                       Type: BaseDataVariableType
                                       DataType: BaseDataType
@@ -4567,12 +4519,6 @@ Children:
                                         Type: DynamicLink
                                         DataType: NodePath
                                         Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
-                                        Children:
-                                        - Name: Mode
-                                          Type: BaseVariableType
-                                          DataType: DynamicLinkMode
-                                          ModellingRule: Optional
-                                          Value: 2
                         - Name: FalseValue
                           Type: BaseDataVariableType
                           DataType: String
@@ -5012,27 +4958,310 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "../../../../Rectangle1/Checkbox1/Checked"
+                            Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/Gererate_J1"
                         - Name: TrueValue
                           Type: BaseDataVariableType
                           DataType: String
                           ReferenceType: HasParameter
                           Value: ""
                           Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/ExcelExportQueryRefreshed1"
+                          - Name: KeyValueConverter1
+                            Type: ValueMapConverter
+                            Children:
+                            - Name: Source
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/Aggregationselection"
+                            - Name: Pairs
+                              Type: BaseObjectType
+                              Children:
+                              - Name: Pair
+                                Type: ValueMapPair
+                                Children:
+                                - Name: Key
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  Value: 0
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Format
+                                      Type: BaseDataVariableType
+                                      DataType: LocalizedText
+                                      ReferenceType: HasParameter
+                                      ModellingRule: Optional
+                                      Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MeterDataView\" WHERE LocalTimestamp BETWEEN {0:sql_literal} AND {1:sql_literal}"}
+                                    - Name: ns=3;Source0
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
+                                    - Name: ns=3;Source1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
+                              - Name: Pair1
+                                Type: ValueMapPair
+                                Children:
+                                - Name: Key
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  Value: 1
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Format
+                                      Type: BaseDataVariableType
+                                      DataType: LocalizedText
+                                      ReferenceType: HasParameter
+                                      ModellingRule: Optional
+                                      Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"TenMinuteDataView\" WHERE LocalTimestamp BETWEEN {0:sql_literal} AND {1:sql_literal}"}
+                                    - Name: ns=3;Source0
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
+                                    - Name: ns=3;Source1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
+                              - Name: Pair2
+                                Type: ValueMapPair
+                                Children:
+                                - Name: Key
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  Value: 2
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Format
+                                      Type: BaseDataVariableType
+                                      DataType: LocalizedText
+                                      ReferenceType: HasParameter
+                                      ModellingRule: Optional
+                                      Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"HourDataView\" WHERE LocalTimestamp BETWEEN {0:sql_literal} AND {1:sql_literal}"}
+                                    - Name: ns=3;Source0
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
+                                    - Name: ns=3;Source1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
                         - Name: FalseValue
                           Type: BaseDataVariableType
                           DataType: String
                           ReferenceType: HasParameter
-                          Value: "/Objects/Tata_EMS_15_10_2024/Model/Reports/First_Report_Links/ExcelExportQueryRefreshed1"
+                          Value: ""
                           Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/ExcelExportQueryRefreshed"
+                          - Name: KeyValueConverter1
+                            Type: ValueMapConverter
+                            Children:
+                            - Name: Source
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/Aggregationselection"
+                            - Name: Pairs
+                              Type: BaseObjectType
+                              Children:
+                              - Name: Pair
+                                Type: ValueMapPair
+                                Children:
+                                - Name: Key
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  Value: 0
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Format
+                                      Type: BaseDataVariableType
+                                      DataType: LocalizedText
+                                      ReferenceType: HasParameter
+                                      ModellingRule: Optional
+                                      Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MeterDataView\" WHERE LocalTimestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND  Jace =  {2:sql_literal}"}
+                                    - Name: ns=3;Source0
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
+                                    - Name: ns=3;Source1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
+                                    - Name: ns=3;Source2
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/jaceselection"
+                              - Name: Pair1
+                                Type: ValueMapPair
+                                Children:
+                                - Name: Key
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  Value: 1
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Format
+                                      Type: BaseDataVariableType
+                                      DataType: LocalizedText
+                                      ReferenceType: HasParameter
+                                      ModellingRule: Optional
+                                      Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"TenMinuteDataView\" WHERE LocalTimestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                                    - Name: ns=3;Source0
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
+                                    - Name: ns=3;Source1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
+                                    - Name: ns=3;Source2
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/jaceselection"
+                              - Name: Pair2
+                                Type: ValueMapPair
+                                Children:
+                                - Name: Key
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  Value: 2
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                    Children:
+                                    - Name: Format
+                                      Type: BaseDataVariableType
+                                      DataType: LocalizedText
+                                      ReferenceType: HasParameter
+                                      ModellingRule: Optional
+                                      Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"HourDataView\" WHERE LocalTimestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                                    - Name: ns=3;Source0
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/DailyDateFrom"
+                                    - Name: ns=3;Source1
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/Daily Date To"
+                                    - Name: ns=3;Source2
+                                      Type: BaseDataVariableType
+                                      DataType: BaseDataType
+                                      ReferenceType: HasSource
+                                      Children:
+                                      - Name: DynamicLink
+                                        Type: DynamicLink
+                                        DataType: NodePath
+                                        Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/jaceselection"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -14745,7 +14974,7 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{Item}/Active_Power_Total"
-            - Name: Apparent_Power
+            - Name: Apparent_Power_Total
               Type: DataGridColumn
               Children:
               - Name: Title
@@ -14767,7 +14996,7 @@ Children:
               - Name: OrderBy
                 Type: BaseDataVariableType
                 DataType: NodePath
-                Value: ""
+                Value: "{Item}/Apparent_Power_Total"
               - Name: DataItemTemplate
                 Type: DataGridLabelItemTemplate
                 Children:

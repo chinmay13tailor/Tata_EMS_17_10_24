@@ -1109,25 +1109,7 @@ Children:
 - Name: Consumption33KV
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
-  Children:
-  - Name: ExpressionEvaluator1
-    Type: ExpressionEvaluator
-    Children:
-    - Name: Expression
-      Type: BaseDataVariableType
-      DataType: String
-      ReferenceType: HasParameter
-      Value: "SELECT Consumption FROM \"DailyJaceDataLogger\" WHERE TimeStamp {0:sql_literal}"
-    - Name: ns=3;Source0
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ReferenceType: HasSource
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../Variable1"
+  Value: 1.0
 - Name: ConsumptionUtility
   Type: BaseDataVariableType
   DataType: Float

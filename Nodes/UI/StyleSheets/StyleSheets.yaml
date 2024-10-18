@@ -664,11 +664,11 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
+        Value: "#ffffff"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
+        Value: 1.0
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
