@@ -5034,7 +5034,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: AlarmsHistory
   Id: g=96351005ce1ad82470a8c3442dace394
   Supertype: BaseScreen
@@ -6121,4 +6121,4 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"

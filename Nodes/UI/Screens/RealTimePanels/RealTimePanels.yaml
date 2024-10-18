@@ -12222,7 +12222,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: Compressor
   Id: g=fbe05b9832c02867e96a191bd50d4b84
   Supertype: BaseScreen
@@ -16655,4 +16655,4 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"

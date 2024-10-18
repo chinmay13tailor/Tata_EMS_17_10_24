@@ -14,6 +14,7 @@ Children:
     DataType: String
     Value: "kv33_demo"
 - Name: Demo_STS
+  Id: g=eb34617c36e710ec118edba1305fe2c4
   Type: MicroControllerTag
   DataType: Boolean
   Value: false

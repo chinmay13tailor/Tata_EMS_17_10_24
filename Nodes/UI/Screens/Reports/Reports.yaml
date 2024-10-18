@@ -12911,6 +12911,12 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "/Objects/Tata_EMS_17_10_24/Model/Reports/First_Report_Links/Selection10"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
                         - Name: Pairs
                           Type: BaseObjectType
                           Children:
@@ -13013,6 +13019,12 @@ Children:
                               Type: BaseDataVariableType
                               DataType: LocalizedText
                               Value: {"LocaleId":"en-US","Text":"J9_SPP_EDB_0_01_1F1"}
+                        - Name: Mode
+                          Type: PropertyType
+                          DataType: DynamicLinkMode
+                          ReferenceType: HasComponent
+                          ModellingRule: Optional
+                          Value: 2
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -15502,7 +15514,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -31930,7 +31942,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -33472,7 +33484,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: AlarmReport
   Id: g=b621e954d00b1bfe5497d428ef4d5734
   Supertype: BaseScreen
@@ -37516,7 +37528,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
 - Name: ButtonSelection1
   Id: g=c4f7d4d80d2883ae073fc7eeb69fd6c1
   Supertype: ConditionalConverter

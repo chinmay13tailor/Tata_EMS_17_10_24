@@ -66,7 +66,7 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_17_10_24/UI/MainWindow1"
+    Value: {"IdType":2,"Id":"9b3ba5904422c93dfc00dee823cd4ac6","Namespace":36}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -471,7 +471,7 @@ Children:
     - Name: Panel
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
+      Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -2129,7 +2129,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"TATA EMS HOME"}
+              Value: {"LocaleId":"en-US","Text":"TATA EMS SOLUTION"}
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -2183,46 +2183,6 @@ Children:
             - Name: MethodsToCall
               Type: BaseObjectType
               Children:
-              - Name: MethodContainer1
-                Type: BaseObjectType
-                Children:
-                - Name: ns=3;ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{PanelLoader}@NodeId"
-                    Children:
-                    - Name: Mode
-                      Type: BaseVariableType
-                      DataType: DynamicLinkMode
-                      ModellingRule: Optional
-                      Value: 2
-                - Name: ns=3;Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "ChangePanel"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: NewPanel
-                    Type: BaseDataVariableType
-                    DataType: NodeId
-                    Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                    Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePage3"
-                  - Name: AliasNode
-                    Type: BaseDataVariableType
-                    DataType: NodeId
-                    Description: {"NamespaceIndex":5,"TextId":"ChangePanelAliasNodeDescription"}
-                    ValueRank: ScalarOrOneDimension
-                    Value: {"IdType":0,"Id":0,"Namespace":-1}
               - Name: MethodContainer2
                 Type: BaseObjectType
                 Children:
@@ -2471,7 +2431,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"NamespaceIndex":36,"TextId":"RealTimePanels"}
+              Value: {"LocaleId":"en-US","Text":"33 KV SubStation View"}
             - Name: MouseClickEventHandler1
               Type: EventHandler
               Children:
@@ -2778,6 +2738,320 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/RealTimePanels/Compressor"
+                    - Name: AliasNode
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../click_menu@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: false
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+            - Name: VarMenuClick
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../click_menu"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: true
+          - Name: Jace Wise View
+            Type: SideMenuButton
+            Children:
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: TextPosition
+              Type: BaseDataVariableType
+              DataType: Position
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Jace Wise View"}
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{PanelLoader}@NodeId"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "ChangePanel"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: NewPanel
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePageJace_Wise"
+                    - Name: AliasNode
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../click_menu@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: false
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+            - Name: VarMenuClick
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../click_menu"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: true
+          - Name: Plant Wise View
+            Type: SideMenuButton
+            Children:
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: TextPosition
+              Type: BaseDataVariableType
+              DataType: Position
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Plant Wise View"}
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{PanelLoader}@NodeId"
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "ChangePanel"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: NewPanel
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/NavigationSystem/HomePagePlant_Wise"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -6491,7 +6765,7 @@ Children:
       ModellingRule: Optional
       Value: 120.0
 - Name: MainWindow1
-  Id: g=9b3ba5904422c93dfc00dee823cd4ac6
+  Id: g=2f1a6c67ac489c0485d1ae5620a5d1f2
   Supertype: Window
   Children:
   - Name: Width

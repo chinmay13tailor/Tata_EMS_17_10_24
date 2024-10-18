@@ -5,7 +5,7 @@ Children:
 - Name: IPAddress
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
+  Value: "192.168.1.55"
 - Name: NodeAddress
   Type: BaseDataVariableType
   DataType: Byte
