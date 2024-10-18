@@ -759,7 +759,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SSP_MVS_IN1"
         - Name: Separate_Meter2
           Type: Separate_Meter
           Children:
@@ -1155,7 +1155,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_MVS_IN2"
         - Name: Separate_Meter3
           Type: Separate_Meter
           Children:
@@ -1551,7 +1551,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_MVS_OG1"
         - Name: Separate_Meter4
           Type: Separate_Meter
           Children:
@@ -1947,7 +1947,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_MVS_OG2"
         - Name: Separate_Meter5
           Type: Separate_Meter
           Children:
@@ -2343,7 +2343,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_SWB_01_1F1"
         - Name: Separate_Meter6
           Type: Separate_Meter
           Children:
@@ -2739,7 +2739,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_SWB_01_4F1"
         - Name: Separate_Meter7
           Type: Separate_Meter
           Children:
@@ -3135,7 +3135,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_SWB_02_1F1"
         - Name: Separate_Meter8
           Type: Separate_Meter
           Children:
@@ -3531,7 +3531,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_1_DB_0_01_1F1"
         - Name: Separate_Meter9
           Type: Separate_Meter
           Children:
@@ -3927,7 +3927,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J9_SPP_EDB_0_01_1F1"
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
