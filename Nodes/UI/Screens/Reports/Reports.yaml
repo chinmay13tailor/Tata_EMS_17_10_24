@@ -2898,6 +2898,11 @@ Children:
               DataType: String
               ModellingRule: Optional
               Value: "Default1"
+            - Name: ReadOnly
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: false
           - Name: DateAndTime2
             Type: DateTimePicker
             Children:
