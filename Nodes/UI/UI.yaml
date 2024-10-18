@@ -66,7 +66,7 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"9b3ba5904422c93dfc00dee823cd4ac6","Namespace":36}
+    Value: "/Objects/Tata_EMS_17_10_24/UI/MainWindow1"
     Children:
     - Name: Kind
       Type: PropertyType

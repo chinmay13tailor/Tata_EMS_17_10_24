@@ -7229,6 +7229,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_02_IN1"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_01_IN1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -7573,13 +7599,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN1"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN1"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -7607,13 +7633,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN1_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN1_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -7701,6 +7727,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_02_IN2"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_01_IN2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -8045,13 +8097,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN2"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN2"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN2"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN2"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -8079,13 +8131,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN2_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN2_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_IN2_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_IN2_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -8173,6 +8225,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_02_OG_F3"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_01_OG_F3"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -8517,13 +8595,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F3"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F3"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F3"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F3"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -8551,13 +8629,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F3_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F3_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F3_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F3_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -8645,6 +8723,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_02_OG_F4"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_01_OG_F4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -8989,13 +9093,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F4"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F4"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F4"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F4"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -9023,13 +9127,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F4_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F4_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F4_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F4_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -9117,6 +9221,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_02_OG_F6"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_01_OG_F6"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -9461,13 +9591,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F6"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F6"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F6"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F6"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -9495,13 +9625,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F6_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F6_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F6_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F6_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -9589,6 +9719,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_02_OG_F7"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_MVS_01_OG_F7"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -9933,13 +10089,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F7"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F7"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F7"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F7"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -9967,13 +10123,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F7_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F7_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_MVS_02_OG_F7_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_MVS_01_OG_F7_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -10061,6 +10217,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_04_INF1"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_01_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -10405,13 +10587,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_01_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_04_INF1"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_04_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_01_INF1"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -10439,13 +10621,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_01_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_04_INF1_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_04_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_01_INF1_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -10533,6 +10715,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_04_OG_F2"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_01_OG_F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -11005,6 +11213,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_05_INF1"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_02_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -11349,13 +11583,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_INF1"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_INF1"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -11383,13 +11617,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_INF1_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_INF1_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -11477,6 +11711,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_06_INF1"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_03_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -11821,13 +12081,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_03_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_06_INF1"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_06_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_03_INF1"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -11855,13 +12115,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_03_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_06_INF1_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_06_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_03_INF1_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -11949,6 +12209,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_INF1"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_07_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -12293,13 +12579,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_INF1"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_INF1"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_INF1"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -12327,13 +12613,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_INF1_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_INF1_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_INF1_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -12421,6 +12707,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_05_OG_F2"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_02_OG_F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -12765,13 +13077,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_OG_F2"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_OG_F2"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_OG_F2"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_OG_F2"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -12799,13 +13111,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_OG_F2_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_OG_F2_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_05_OG_F2_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_02_OG_F2_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -12893,6 +13205,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_06_OG_F2"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_03_OG_F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -13365,6 +13703,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F2"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_07_OG_F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -13709,13 +14073,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_OG_F2"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_OG_F2"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_OG_F2"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_OG_F2"
           - Name: MeterAlias2
             Type: Alias
             DataType: NodeId
@@ -13743,13 +14107,13 @@ Children:
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_OG_F2_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_OG_F2_STS"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/Bodyshopsubstation1/MicroControllerStation1/Tags/BDY_SWB_07_OG_F2_STS"
+                Value: "/Objects/Tata_EMS_17_10_24/CommDrivers/BodyshopMeters/MicroControllerStation1/Tags/BDY_SWB_08_OG_F2_STS"
           - Name: Voltage Range
             Type: BaseDataVariableType
             DataType: Int32
@@ -13837,6 +14201,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_06_OG_F3"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_03_OG_F3"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -14309,6 +14699,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F3"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_07_OG_F3"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -14781,6 +15197,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_06_OG_F4"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_03_OG_F4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -15253,6 +15695,32 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: ConditionalConverter1
+                        Type: ConditionalConverter
+                        Children:
+                        - Name: Condition
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          ReferenceType: HasSource
+                          Value: false
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../../../../layout/Switch1/Checked"
+                        - Name: TrueValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F4"
+                        - Name: FalseValue
+                          Type: BaseDataVariableType
+                          DataType: NodeId
+                          ReferenceType: HasParameter
+                          ModellingRule: Optional
+                          Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_07_OG_F4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
