@@ -8,7 +8,7 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Value: true
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -58,7 +58,7 @@ Children:
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
-    Value: "172.20.10.5"
+    Value: "192.168.36.49"
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16

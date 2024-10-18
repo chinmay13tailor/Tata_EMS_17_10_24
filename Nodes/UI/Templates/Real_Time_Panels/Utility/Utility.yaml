@@ -623,7 +623,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -656,6 +656,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1671.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Rectangle1
           Type: Rectangle
           Children:
@@ -7280,7 +7284,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -7313,6 +7317,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 109.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter2
           Type: Separate_Meter
           Children:
@@ -7672,7 +7680,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -7705,6 +7713,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 109.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter3
           Type: Separate_Meter
           Children:
@@ -8064,7 +8076,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -8097,6 +8109,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 400.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter4
           Type: Separate_Meter
           Children:
@@ -8456,7 +8472,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -8489,6 +8505,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 400.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter5
           Type: Separate_Meter
           Children:
@@ -8848,7 +8868,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -8881,6 +8901,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 400.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter6
           Type: Separate_Meter
           Children:
@@ -9240,7 +9264,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -9273,6 +9297,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 400.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter7
           Type: Separate_Meter
           Children:
@@ -9632,7 +9660,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -9665,6 +9693,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 400.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter8
           Type: Separate_Meter
           Children:
@@ -10024,7 +10056,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -10057,6 +10089,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 693.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter9
           Type: Separate_Meter
           Children:
@@ -10416,7 +10452,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -10449,6 +10485,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 692.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter10
           Type: Separate_Meter
           Children:
@@ -10808,7 +10848,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -10841,6 +10881,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 692.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter11
           Type: Separate_Meter
           Children:
@@ -11200,7 +11244,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -11233,6 +11277,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 930.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter12
           Type: Separate_Meter
           Children:
@@ -11592,7 +11640,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -11625,6 +11673,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1170.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter13
           Type: Separate_Meter
           Children:
@@ -11984,7 +12036,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -12017,6 +12069,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1419.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter14
           Type: Separate_Meter
           Children:
@@ -12376,7 +12432,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -12409,6 +12465,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1660.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter15
           Type: Separate_Meter
           Children:
@@ -12768,7 +12828,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -12801,6 +12861,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1900.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter16
           Type: Separate_Meter
           Children:
@@ -13160,7 +13224,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -13193,6 +13257,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2159.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter17
           Type: Separate_Meter
           Children:
@@ -13552,7 +13620,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -13585,6 +13653,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2410.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter18
           Type: Separate_Meter
           Children:
@@ -13944,7 +14016,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -13982,6 +14054,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 250.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter19
           Type: Separate_Meter
           Children:
@@ -14341,7 +14417,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -14379,6 +14455,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 250.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter20
           Type: Separate_Meter
           Children:
@@ -14738,7 +14818,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -14776,6 +14856,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 250.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter21
           Type: Separate_Meter
           Children:
@@ -15135,7 +15219,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -15168,6 +15252,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 692.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter22
           Type: Separate_Meter
           Children:
@@ -15527,7 +15615,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -15560,6 +15648,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 692.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter23
           Type: Separate_Meter
           Children:
@@ -15919,7 +16011,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -15952,6 +16044,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 949.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter24
           Type: Separate_Meter
           Children:
@@ -16311,7 +16407,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -16344,6 +16440,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1189.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter25
           Type: Separate_Meter
           Children:
@@ -16703,7 +16803,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -16736,6 +16836,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1439.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter26
           Type: Separate_Meter
           Children:
@@ -17095,7 +17199,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -17128,6 +17232,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1678.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter27
           Type: Separate_Meter
           Children:
@@ -17487,7 +17595,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -17520,6 +17628,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1929.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter28
           Type: Separate_Meter
           Children:
@@ -17879,7 +17991,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -17912,6 +18024,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1920.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter29
           Type: Separate_Meter
           Children:
@@ -18271,7 +18387,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -18304,6 +18420,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2169.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter30
           Type: Separate_Meter
           Children:
@@ -18663,7 +18783,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -18696,6 +18816,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2430.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter31
           Type: Separate_Meter
           Children:
@@ -19055,7 +19179,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -19088,6 +19212,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2669.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter32
           Type: Separate_Meter
           Children:
@@ -19447,7 +19575,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -19480,6 +19608,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2920.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter33
           Type: Separate_Meter
           Children:
@@ -19839,7 +19971,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -19872,6 +20004,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3159.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter34
           Type: Separate_Meter
           Children:
@@ -20231,7 +20367,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -20264,6 +20400,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3399.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter35
           Type: Separate_Meter
           Children:
@@ -20623,7 +20763,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -20656,6 +20796,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3649.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter36
           Type: Separate_Meter
           Children:
@@ -21015,7 +21159,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -21048,6 +21192,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3889.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter37
           Type: Separate_Meter
           Children:
@@ -21407,7 +21555,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -21440,6 +21588,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 4120.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter38
           Type: Separate_Meter
           Children:
@@ -21799,7 +21951,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -21832,6 +21984,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2420.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter39
           Type: Separate_Meter
           Children:
@@ -22191,7 +22347,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -22224,6 +22380,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2670.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter40
           Type: Separate_Meter
           Children:
@@ -22583,7 +22743,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -22616,6 +22776,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2919.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter41
           Type: Separate_Meter
           Children:
@@ -22975,7 +23139,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -23008,6 +23172,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3159.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter42
           Type: Separate_Meter
           Children:
@@ -23367,7 +23535,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -23400,6 +23568,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3400.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter43
           Type: Separate_Meter
           Children:
@@ -23759,7 +23931,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -23792,6 +23964,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3650.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter44
           Type: Separate_Meter
           Children:
@@ -24151,7 +24327,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -24184,6 +24360,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 3889.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter45
           Type: Separate_Meter
           Children:
@@ -24543,7 +24723,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -24576,6 +24756,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 4129.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter46
           Type: Separate_Meter
           Children:
@@ -24935,7 +25119,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -24973,6 +25157,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter47
           Type: Separate_Meter
           Children:
@@ -25332,7 +25520,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -25370,6 +25558,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter48
           Type: Separate_Meter
           Children:
@@ -25729,7 +25921,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -25767,6 +25959,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter50
           Type: Separate_Meter
           Children:
@@ -26126,7 +26322,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -26159,6 +26355,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 1920.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter51
           Type: Separate_Meter
           Children:
@@ -26518,7 +26718,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -26551,6 +26751,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2159.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter52
           Type: Separate_Meter
           Children:
@@ -26910,7 +27114,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -26943,6 +27147,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 2419.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter53
           Type: Separate_Meter
           Children:
@@ -27302,7 +27510,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -27340,6 +27548,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter54
           Type: Separate_Meter
           Children:
@@ -27699,7 +27911,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -27737,6 +27949,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter55
           Type: Separate_Meter
           Children:
@@ -28096,7 +28312,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -28134,6 +28350,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter56
           Type: Separate_Meter
           Children:
@@ -28493,7 +28713,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -28531,6 +28751,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter57
           Type: Separate_Meter
           Children:
@@ -28890,7 +29114,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -28928,6 +29152,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter58
           Type: Separate_Meter
           Children:
@@ -29287,7 +29515,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -29325,6 +29553,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter59
           Type: Separate_Meter
           Children:
@@ -29684,7 +29916,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -29722,6 +29954,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter60
           Type: Separate_Meter
           Children:
@@ -30081,7 +30317,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -30119,6 +30355,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter61
           Type: Separate_Meter
           Children:
@@ -30478,7 +30718,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -30516,6 +30756,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter62
           Type: Separate_Meter
           Children:
@@ -30875,7 +31119,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -30913,6 +31157,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter63
           Type: Separate_Meter
           Children:
@@ -31272,7 +31520,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -31310,6 +31558,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter64
           Type: Separate_Meter
           Children:
@@ -31669,7 +31921,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -31707,6 +31959,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter65
           Type: Separate_Meter
           Children:
@@ -32066,7 +32322,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -32104,6 +32360,10 @@ Children:
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter66
           Type: Separate_Meter
           Children:
@@ -32463,7 +32723,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -32501,6 +32761,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter67
           Type: Separate_Meter
           Children:
@@ -32860,7 +33124,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -32898,6 +33162,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter68
           Type: Separate_Meter
           Children:
@@ -33257,7 +33525,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -33295,6 +33563,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter69
           Type: Separate_Meter
           Children:
@@ -33654,7 +33926,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -33692,6 +33964,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter70
           Type: Separate_Meter
           Children:
@@ -34051,7 +34327,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -34089,6 +34365,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter71
           Type: Separate_Meter
           Children:
@@ -34448,7 +34728,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -34486,6 +34766,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter72
           Type: Separate_Meter
           Children:
@@ -34845,7 +35129,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -34883,6 +35167,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter73
           Type: Separate_Meter
           Children:
@@ -35242,7 +35530,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -35280,6 +35568,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter74
           Type: Separate_Meter
           Children:
@@ -35639,7 +35931,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -35677,6 +35969,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter75
           Type: Separate_Meter
           Children:
@@ -36036,7 +36332,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -36074,6 +36370,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 270.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color

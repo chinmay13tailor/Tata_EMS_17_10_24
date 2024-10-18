@@ -723,7 +723,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -756,6 +756,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 50.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: Separate_Meter2
           Type: Separate_Meter
           Children:
@@ -1115,7 +1119,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{MeterAlias1}/SymbolName"
+                Value: "../../Name"
           - Name: MeterAlias1
             Type: Alias
             DataType: NodeId
@@ -1148,6 +1152,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 50.0
+          - Name: Name
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
