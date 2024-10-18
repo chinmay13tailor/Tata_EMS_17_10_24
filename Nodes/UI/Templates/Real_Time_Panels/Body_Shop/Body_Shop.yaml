@@ -16192,7 +16192,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_05_OG_F3"
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -16618,7 +16618,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_03_OG_F5"
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -17044,7 +17044,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F5"
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -17470,7 +17470,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F6"
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -17896,7 +17896,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F7"
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -18322,7 +18322,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/BodyShop/J5_BDY_SWB_08_OG_F8"
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId

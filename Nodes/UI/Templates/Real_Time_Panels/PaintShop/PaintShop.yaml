@@ -1945,7 +1945,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_IN_F1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -2341,7 +2341,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_IN_F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -2737,7 +2737,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -3133,7 +3133,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F5"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -3529,7 +3529,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F6"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -3925,7 +3925,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F7"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -4321,7 +4321,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F8"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -4717,7 +4717,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F9"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5113,7 +5113,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F10"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5509,7 +5509,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/PaintShop/J4_PNT_MVS_01_OG_F11"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId

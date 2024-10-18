@@ -3501,7 +3501,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_IN_F1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -3897,7 +3897,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_IN_F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -4293,7 +4293,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_OG_F4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -4689,7 +4689,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_OG_F5"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5085,7 +5085,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_OG_F6"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5481,7 +5481,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_OG_F7"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5877,7 +5877,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_MVS_01_OG_F8"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -6273,7 +6273,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_01_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -6669,7 +6669,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_01_OG_3F"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -7065,7 +7065,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_03_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -7461,7 +7461,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_04_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -7857,7 +7857,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_05_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -8253,7 +8253,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_INF1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -8649,7 +8649,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_OG_2F"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -9045,7 +9045,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_OG_3F1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -9441,7 +9441,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_OG_4F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -9837,7 +9837,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_OG_3F2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -10233,7 +10233,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_OG_4F1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -10629,7 +10629,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Value: "/Objects/Tata_EMS_17_10_24/UI/Screens/AllMeterPanels/Stamping/J7_STP_SWB_02_OG_5F1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId

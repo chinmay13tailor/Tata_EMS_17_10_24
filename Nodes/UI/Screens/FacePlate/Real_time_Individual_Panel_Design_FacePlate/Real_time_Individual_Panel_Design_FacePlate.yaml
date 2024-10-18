@@ -9803,6 +9803,11 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
   - Name: Image1
     Type: Image
     Children:
@@ -9849,7 +9854,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1.0
+      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
