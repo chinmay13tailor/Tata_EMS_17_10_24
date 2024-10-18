@@ -3854,7 +3854,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_IN_F1"
         - Name: Separate_Meter2
           Type: Separate_Meter
           Children:
@@ -4250,7 +4250,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_IN_F2"
         - Name: Separate_Meter3
           Type: Separate_Meter
           Children:
@@ -4646,7 +4646,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_OG_F4"
         - Name: Separate_Meter4
           Type: Separate_Meter
           Children:
@@ -5042,7 +5042,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_OG_F5"
         - Name: Separate_Meter5
           Type: Separate_Meter
           Children:
@@ -5438,7 +5438,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_OG_F6"
         - Name: Separate_Meter6
           Type: Separate_Meter
           Children:
@@ -5834,7 +5834,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_OG_F7"
         - Name: Separate_Meter7
           Type: Separate_Meter
           Children:
@@ -6230,7 +6230,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_MVS_01_OG_F8"
         - Name: Separate_Meter8
           Type: Separate_Meter
           Children:
@@ -6626,7 +6626,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_01_INF1"
         - Name: Separate_Meter9
           Type: Separate_Meter
           Children:
@@ -7022,7 +7022,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_01_OG_3F"
         - Name: Separate_Meter10
           Type: Separate_Meter
           Children:
@@ -7418,7 +7418,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_03_INF1"
         - Name: Separate_Meter11
           Type: Separate_Meter
           Children:
@@ -7814,7 +7814,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_04_INF1"
         - Name: Separate_Meter12
           Type: Separate_Meter
           Children:
@@ -8210,7 +8210,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_05_INF1"
         - Name: Separate_Meter13
           Type: Separate_Meter
           Children:
@@ -8606,7 +8606,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_INF1"
         - Name: Separate_Meter14
           Type: Separate_Meter
           Children:
@@ -9002,7 +9002,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_OG_2F"
         - Name: Separate_Meter15
           Type: Separate_Meter
           Children:
@@ -9398,7 +9398,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_OG_3F1"
         - Name: Separate_Meter16
           Type: Separate_Meter
           Children:
@@ -9794,7 +9794,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_OG_4F2"
         - Name: Separate_Meter17
           Type: Separate_Meter
           Children:
@@ -10190,7 +10190,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_OG_3F2"
         - Name: Separate_Meter18
           Type: Separate_Meter
           Children:
@@ -10586,7 +10586,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_OG_4F1"
         - Name: Separate_Meter19
           Type: Separate_Meter
           Children:
@@ -10982,7 +10982,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J7_STP_SWB_02_OG_5F1"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color

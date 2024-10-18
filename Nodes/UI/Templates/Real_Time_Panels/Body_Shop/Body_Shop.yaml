@@ -7632,6 +7632,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_01_IN1"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_02_IN1"
         - Name: Separate_Meter2
           Type: Separate_Meter
           Children:
@@ -8078,6 +8104,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_01_IN2"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_02_IN2"
         - Name: Separate_Meter3
           Type: Separate_Meter
           Children:
@@ -8524,6 +8576,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_01_OG_F3"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_02_OG_F3"
         - Name: Separate_Meter4
           Type: Separate_Meter
           Children:
@@ -8970,6 +9048,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_01_OG_F4"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_02_OG_F4"
         - Name: Separate_Meter5
           Type: Separate_Meter
           Children:
@@ -9416,6 +9520,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_01_OG_F6"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_02_OG_F6"
         - Name: Separate_Meter6
           Type: Separate_Meter
           Children:
@@ -9862,6 +9992,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_01_OG_F7"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_MVS_02_OG_F7"
         - Name: Separate_Meter7
           Type: Separate_Meter
           Children:
@@ -10308,6 +10464,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_01_INF1"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_04_INF1"
         - Name: Separate_Meter8
           Type: Separate_Meter
           Children:
@@ -10754,6 +10936,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_01_OG_F2"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_04_OG_F2"
         - Name: Separate_Meter9
           Type: Separate_Meter
           Children:
@@ -11200,6 +11408,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_02_INF1"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_05_INF1"
         - Name: Separate_Meter10
           Type: Separate_Meter
           Children:
@@ -11646,6 +11880,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_03_INF1"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_06_INF1"
         - Name: Separate_Meter11
           Type: Separate_Meter
           Children:
@@ -12092,6 +12352,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_08_INF1"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_07_INF1"
         - Name: Separate_Meter12
           Type: Separate_Meter
           Children:
@@ -12538,6 +12824,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_02_OG_F2"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_05_OG_F2"
         - Name: Separate_Meter13
           Type: Separate_Meter
           Children:
@@ -12984,6 +13296,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_03_OG_F2"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_06_OG_F2"
         - Name: Separate_Meter14
           Type: Separate_Meter
           Children:
@@ -13430,6 +13768,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_08_OG_F2"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_07_OG_F2"
         - Name: Separate_Meter15
           Type: Separate_Meter
           Children:
@@ -13876,6 +14240,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_03_OG_F3"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_06_OG_F3"
         - Name: Separate_Meter16
           Type: Separate_Meter
           Children:
@@ -14322,6 +14712,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_08_OG_F3"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_07_OG_F3"
         - Name: Separate_Meter17
           Type: Separate_Meter
           Children:
@@ -14768,6 +15184,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_03_OG_F4"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_06_OG_F4"
         - Name: Separate_Meter18
           Type: Separate_Meter
           Children:
@@ -15214,6 +15656,32 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "0"
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Value: false
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../layout/Switch1/Checked"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_08_OG_F4"
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "J5_BDY_SWB_07_OG_F4"
         - Name: Separate_Meter19
           Type: Separate_Meter
           Children:
@@ -15639,7 +16107,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J5_BDY_SWB_05_OG_F3"
         - Name: Separate_Meter20
           Type: Separate_Meter
           Children:
@@ -16065,7 +16533,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J5_BDY_SWB_03_OG_F5"
         - Name: Separate_Meter21
           Type: Separate_Meter
           Children:
@@ -16491,7 +16959,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J5_BDY_SWB_08_OG_F5"
         - Name: Separate_Meter22
           Type: Separate_Meter
           Children:
@@ -16917,7 +17385,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J5_BDY_SWB_08_OG_F6"
         - Name: Separate_Meter23
           Type: Separate_Meter
           Children:
@@ -17343,7 +17811,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J5_BDY_SWB_08_OG_F7"
         - Name: Separate_Meter24
           Type: Separate_Meter
           Children:
@@ -17769,7 +18237,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J5_BDY_SWB_08_OG_F8"
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText

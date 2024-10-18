@@ -759,7 +759,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J8_ADM_DB_01_INF1"
         - Name: Separate_Meter2
           Type: Separate_Meter
           Children:
@@ -1155,7 +1155,7 @@ Children:
           - Name: Name
             Type: BaseDataVariableType
             DataType: String
-            Value: "0"
+            Value: "J8_ADM_EDB_01_INF2"
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
